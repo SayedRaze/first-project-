@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+header{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+ul{
+    list-style: none;
+    display: flex;
+
+}
+ul li a{
+    margin: 20px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 800;
+    color:red;
+    font-family: Arial, Helvetica, sans-serif;
+}
+ul li a:hover{
+    background-color:yellow;
+    color:blue;
+    font-size: 30px;
+    font-weight: bold;
+    
+}
+
+
+ main{
+     border: 10px double red;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height:calc(100vh - 100px);
+ }
+ .bg{
+     width: 650px;
+     height: 550;
+     margin: 40px;
+ }
+ .text{
+     width: 30%;
+ }
+
+
+
+ main h1{
+     font-size: 60px;
+     color: blue;
+     text-transform: uppercase;
+ }
+ main h2{
+     font-size: 35px;
+     color: rgb(236, 6, 18);
+     margin: 20px 0;
+     text-transform: uppercase;
+     word-spacing: 10px;
+ }
+ main p{
+     font-size: 20px;
+     font-weight: 800px;
+     margin: 30px 0;
+     line-height: 30px;
+ }
+ main button{
+     padding: 20px;
+     background-color: blue;
+     font-size: 20px;
+     font-weight: 800px;
+     text-transform: uppercase;
+     color: white;
+     border-radius: 100px;
+
+ }
+ .singbtn{
+    padding: 20px;
+    background-color: blue;
+    font-size: 20px;
+    font-weight: 800px;
+    text-transform: uppercase;
+    color: white;
+    border-radius: 100px;
+
+ }
